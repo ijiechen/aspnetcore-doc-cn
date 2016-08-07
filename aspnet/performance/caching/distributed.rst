@@ -48,7 +48,7 @@ A distributed cache is shared by multiple app servers (see :ref:`caching-basics`
 
 .. note:: If using a SQL Server Distributed Cache, some of these advantages are only true if a separate database instance is used for the cache than for the app's source data.
 
-.. 说明:: 如果使用SQL Server分布式缓存，与应用的资源缓存数据相比以上优势仅部分有效，如果使用分离的数据库实例。
+.. note:: 如果使用SQL Server分布式缓存，与应用的资源缓存数据相比以上优势仅部分有效，如果使用分离的数据库实例。
 
 Like any cache, a distributed cache can dramatically improve an app's responsiveness, since typically data can be retrieved from the cache much faster than from a relational database (or web service).
 
